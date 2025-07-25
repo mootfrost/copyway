@@ -1,0 +1,11 @@
+[package]
+name = "copyway"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wayland-client = "0.31"
+wayland-protocols = { version = "0.31", features = ["client", "unstable"] }
+wayland-protocols-wlr = { version = "0.3", features = ["client"] }
+wayland-cursor = "0.31"
+tempfile = "3.20.0"
